@@ -2,7 +2,15 @@ package com.codedifferently.partA;
 
 public class Problem01 {
     public Boolean sleepIn(boolean weekday, boolean vacation) {
-        // Your code goes here
-        return null;
+       if(!weekday && !vacation) {
+        return true;
+       }
+       else if(weekday && vacation) {
+        return true;
+       }
+       else if(!weekday && vacation) {
+        return true;
+       }
+       else return false;
     }
 }
