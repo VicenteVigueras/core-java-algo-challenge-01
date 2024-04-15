@@ -6,9 +6,6 @@ public class Problem03 {
         if(a != b) {
             return a + b;
         }
-        else {
             return 2*(a+b);
-        }
     }
-
 }
