@@ -55,6 +55,4 @@ public class Problem13Test {
         assertEquals("oHelloo", result, "Last character should be added to front and back of 'Hello'");
     }
 
-
-
 }
