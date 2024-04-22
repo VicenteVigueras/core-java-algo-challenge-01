@@ -24,6 +24,3 @@ public class Problem30 {
       return "success";
         }
 }
-
-
-
